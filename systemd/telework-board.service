@@ -1,0 +1,14 @@
+[Unit]
+Description=telework-board
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/telework/board/build/board
+WorkingDirectory=/home/telework/board
+User=telework
+Group=telework
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=multi-user.target

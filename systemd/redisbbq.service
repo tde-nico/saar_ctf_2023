@@ -1,0 +1,14 @@
+[Unit]
+Description=RedisBBQ service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/redisbbq/start-server.sh
+WorkingDirectory=/home/redisbbq/
+User=redisbbq
+Group=redisbbq
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+[Unit]
+Description=Saarsec alluring allegiant Superb Secure and absolutely Safe Speedy advanced arithmetic Stack System as a Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=bash -c "if [ ! -f "server.pem" ];then openssl genrsa -out "server.key"; openssl req -new -x509 -key "server.key" -subj '/CN=SaaSSaaSSaaSSaaS' -out "server.crt"; cat "server.key" "server.crt" > "server.pem";fi;socat -s -T10 OPENSSL-LISTEN:24929,reuseaddr,fork,verify=0,cert='server.pem' EXEC:'/home/saassaassaassaas/frontend',pty,stderr,setsid,sigint,sane"
+WorkingDirectory=/home/saassaassaassaas/
+User=saassaassaassaas
+Group=saassaassaassaas
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=multi-user.target

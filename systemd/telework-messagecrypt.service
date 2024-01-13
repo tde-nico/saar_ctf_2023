@@ -1,0 +1,14 @@
+[Unit]
+Description=telework-messagecrypt
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/telework/messagecrypt/build/messagecrypt
+WorkingDirectory=/home/telework/messagecrypt/build
+User=telework
+Group=telework
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=multi-user.target

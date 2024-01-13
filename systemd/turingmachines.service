@@ -1,0 +1,14 @@
+[Unit]
+Description=TuringMachines++ website
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/turingmachines/turing-machines -serve 2080
+WorkingDirectory=/home/turingmachines/
+User=turingmachines
+Group=turingmachines
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=multi-user.target

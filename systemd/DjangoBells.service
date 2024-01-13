@@ -1,0 +1,14 @@
+[Unit]
+Description=DjangoBells SaarCTF 2023 Webservice
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=python3 manage.py runserver 0.0.0.0:8000
+WorkingDirectory=/home/DjangoBells/djangobells
+User=DjangoBells
+Group=DjangoBells
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=multi-user.target

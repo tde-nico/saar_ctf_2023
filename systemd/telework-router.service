@@ -1,0 +1,14 @@
+[Unit]
+Description=telework-router
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=python3 router.py
+WorkingDirectory=/home/telework/router
+User=telework
+Group=telework
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=multi-user.target
