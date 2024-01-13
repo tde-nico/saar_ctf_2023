@@ -1,0 +1,14 @@
+/home/telework/holiday/Holiday/bin/Release/net7.0/Holiday
+/home/telework/holiday/Holiday/bin/Release/net7.0/Holiday.deps.json
+/home/telework/holiday/Holiday/bin/Release/net7.0/Holiday.runtimeconfig.json
+/home/telework/holiday/Holiday/bin/Release/net7.0/Holiday.dll
+/home/telework/holiday/Holiday/bin/Release/net7.0/Holiday.pdb
+/home/telework/holiday/Holiday/obj/Release/net7.0/Holiday.GeneratedMSBuildEditorConfig.editorconfig
+/home/telework/holiday/Holiday/obj/Release/net7.0/Holiday.AssemblyInfoInputs.cache
+/home/telework/holiday/Holiday/obj/Release/net7.0/Holiday.AssemblyInfo.cs
+/home/telework/holiday/Holiday/obj/Release/net7.0/Holiday.csproj.CoreCompileInputs.cache
+/home/telework/holiday/Holiday/obj/Release/net7.0/Holiday.dll
+/home/telework/holiday/Holiday/obj/Release/net7.0/refint/Holiday.dll
+/home/telework/holiday/Holiday/obj/Release/net7.0/Holiday.pdb
+/home/telework/holiday/Holiday/obj/Release/net7.0/Holiday.genruntimeconfig.cache
+/home/telework/holiday/Holiday/obj/Release/net7.0/ref/Holiday.dll

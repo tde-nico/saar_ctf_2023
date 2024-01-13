@@ -1,0 +1,2 @@
+user default on nopass -@all +NEWUSER +LRANGE +http.GET +http.POST +AUTH +PING +LOLWUT ~newest:* ~country:* ~/*
+user admin on #4519e61fa063f936c33d7b9434906415eda142a33f48986d9a67897a4efc8f7a +@all ~*
